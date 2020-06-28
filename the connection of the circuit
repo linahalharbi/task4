@@ -1,0 +1,24 @@
+the connection of the circuit as follow : 
+
+In relay 1  
+
+connect the terminal 6 with pin  5v pin of Arduino Uno  
+Connect terminal 5   with  terminal 1 of dc motor . 
+Connect terminal 1 with pin 6 of Arduino Uno 
+Connect terminal 12 with GND pin of Arduino Uno . 
+Connect terminal 7 with the negative of battery 1 .
+Connect terminal 5 with the positive of battery 2 . 
+
+In relay 2 
+
+connect the terminal 6 with pin  5v pin of Arduino Uno  
+Connect terminal 5   with  terminal 1 of dc motor . 
+Connect terminal 1 with pin 5 of Arduino Uno 
+Connect terminal 12 with GND pin of Arduino Uno . 
+Connect terminal 7 with the negative of battery 2 .
+
+In dc motor
+ 
+terminal 1 with terminal 5 of relay 1 of dc motor . 
+Terminal 2 with the positive of battery 1 . 
+Terminal 1 with the positive of battery 2 . 
