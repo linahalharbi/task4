@@ -1,0 +1,19 @@
+this is the code i use to controll the dc motor in both dircetion clockwise and counter clockwise 
+
+void setup() //runs once 
+{
+  pinMode(6, OUTPUT); //output info as moving motors //set pin as output for relay 1
+  pinMode(5, OUTPUT);//set pin as output for relay 2
+}
+
+void loop()// runs continously 
+{
+   // Rotate in CW direction
+  digitalWrite(6, HIGH); //turn relay 1 OFF
+  digitalWrite(5, LOW);//turn relay 2 ON
+  delay(1000); // Wait for 1000 millisecond(s)
+ // Rotate in CCW direction
+  digitalWrite(6, LOW); //turn relay 1 ON
+  digitalWrite(5, HIGH);//turn relay 2 OFF
+  delay(1000); // Wait for 1000 millisecond(s) 
+}
